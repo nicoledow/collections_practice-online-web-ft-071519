@@ -38,3 +38,6 @@ def find_a(array)
   array.select {|word| word.start_with?("a") || word.start_with?("A")}
 end
 
+def sum_array(array)
+  array.reduce 
+end
