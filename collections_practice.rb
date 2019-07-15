@@ -44,7 +44,9 @@ end
 
 def add_s(array)
   array.each_with_index.map do |word, index|
-    if index != 1
+    if index == 1
+      word = word
+    else
       word = "#{word}s"
     end
   end
